@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados do Servidor</title>
+    <title>Exemplo PHP</title>
 </head>
 <body>
-    <h1>Dados do Servidor</h1>
+    <h1>Exemplo Nome PHP</h1>
     <?php 
-        phpinfo();
+        $nome = "Azriel Armando";
+        echo "<p>O meu nome é $nome</p>";
     ?>
 </body>
 </html>
